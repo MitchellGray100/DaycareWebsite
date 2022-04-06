@@ -1,0 +1,149 @@
+#logo-font{
+  color: Red;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  margin-right: 7rem;
+}
+
+#ballpit{
+  position: relative;
+  z-index: -1;
+  width:100%;
+}
+#future{
+  position: absolute;
+  z-index: 10;
+  top: 22rem;
+  left: 2rem;
+  font-size: 5vw;
+  width: 40vw;
+  font-family: serif;
+  font-weight: 600;
+  text-shadow:
+    -4px -4px 0 Black,
+    4px -4px 0 Black,
+    -1px 1px 0 Black,
+    1px 1px 0 Black;
+}
+.large-color{
+  width:100%;
+  height:10000px;
+  background-image: linear-gradient(red, yellow);
+}
+
+.navbar{
+  position: fixed;
+  width:100%;
+  opacity:100;
+  z-index: 100;
+}
+
+.logo-div{
+  margin: 0 0 0 2rem;
+}
+
+.top-words{
+  font-size: 32px;
+  margin-right: 5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.image-text{
+  position: relative;
+  color:white;
+}
+
+.personal{
+  background-color: white;
+  width:100%;
+  height:30rem;
+  display: flex;
+  align-items: center;
+}
+.personal2{
+  background-color: red;
+  width:100%;
+  height:30rem;
+  display: flex;
+  align-items: center;
+}
+.face{
+  float: left;
+  width: 20%;
+  vertical-align: middle;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.face2{
+  float: right;
+  width: 50%;
+  vertical-align: middle;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.personal-h2-1{
+  color: Red;
+  font-size: 4rem;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 50vw;
+  font-family: 'Pacifico', cursive;
+  vertical-align: middle;
+}
+.personal-h2-2{
+  color: white;
+  font-size: 4rem;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-left: 25vw;
+  /* width: 50vw; */
+  font-family: 'Pacifico', cursive;
+  vertical-align: middle;
+}
+.bubble{
+  float: left;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+.carousel-div{
+  margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20%;
+
+}
+.carousel-control{
+  width: 100%;
+}
+.end-of-page{
+  background-color: red;
+  width: 100%;
+  height: 15rem;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#carouselExampleSlidesOnly{
+  margin-left: 25%;
+}
+h3{
+  margin-left: 10%;
+  font-family: 'Lato', sans-serif;
+}
+a{
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+hr{
+  background-color: red;
+  width=100%;
+  margin-bottom: 5%;
+  height: 4px;
+}
