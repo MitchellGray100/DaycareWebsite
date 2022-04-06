@@ -151,6 +151,13 @@
   height: 5vw;
 }
 
+
+  .carousel-indicators li{
+    background-color: red;
+    height: 1.5vw;
+    width: 4vw;
+  }
+
 #carouselExampleSlidesOnly {
   margin-left: 25%;
 }
