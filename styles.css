@@ -34,6 +34,10 @@
 #contact{
   height: 80%;
 }
+
+#top{
+  scroll-behavior: smooth;
+}
 .large-color {
   width: 100%;
   height: 10000px;
@@ -194,14 +198,29 @@ hr {
   background-color: red;
   margin-left: 10%;
   margin-right: 10%;
-  width=60%;
 }
 
 h1{
   color: black;
 }
 
-.about h1{
+h6{
+  margin-right: 10%;
+  text-align: right;
+}
+.about .h1{
   font-size: 4rem;
   color: red;
+}
+.left-end{
+  float: left;
+  width:50%;
+}
+.right-end{
+  float:right;
+  width:50%;
+  height: 100%;
+}
+.made-by{
+  margin-top: 18%;
 }
