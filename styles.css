@@ -88,7 +88,7 @@
 
 .face2 {
   float: right;
-  width: 50%;
+  width: 20%;
   vertical-align: middle;
   margin-right: 2%;
   margin-top: 2%;
@@ -96,7 +96,7 @@
 
 .personal-h2-1 {
   color: Red;
-  font-size: 4rem;
+  font-size: 3vw;
   text-align: left;
   margin-top: 2%;
   margin-left: 3%;
@@ -107,7 +107,7 @@
 
 .personal-h2-2 {
   color: white;
-  font-size: 4rem;
+  font-size: 3vw;
   text-align: right;
   margin-top: 2%;
   margin-right: 3%;
