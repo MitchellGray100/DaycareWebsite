@@ -1,16 +1,18 @@
-#logo-font{
+#logo-font {
   color: Red;
   font-size: 2rem;
   font-family: 'Pacifico', cursive;
   margin-right: 7rem;
 }
 
-#ballpit{
+#ballpit {
   position: relative;
   z-index: -1;
-  width:100%;
+  width: 100%;
 }
-#future{
+
+#future {
+  color:white;
   position: absolute;
   z-index: 10;
   top: 22rem;
@@ -25,63 +27,68 @@
     -1px 1px 0 Black,
     1px 1px 0 Black;
 }
-.large-color{
-  width:100%;
-  height:10000px;
+
+.large-color {
+  width: 100%;
+  height: 10000px;
   background-image: linear-gradient(red, yellow);
 }
 
-.navbar{
+.navbar {
   position: fixed;
-  width:100%;
-  opacity:100;
+  width: 100%;
+  opacity: 100;
   z-index: 100;
 }
 
-.logo-div{
+.logo-div {
   margin: 0 0 0 2rem;
 }
 
-.top-words{
+.top-words {
   font-size: 32px;
   margin-right: 5rem;
   font-family: 'Lato', sans-serif;
 }
 
-.image-text{
+.image-text {
   position: relative;
-  color:white;
+  color: white;
 }
 
-.personal{
+.personal {
   background-color: white;
-  width:100%;
-  height:30rem;
+  width: 100%;
+  height: 30rem;
   display: flex;
   align-items: center;
 }
-.personal2{
+
+.personal2 {
   background-color: red;
-  width:100%;
-  height:30rem;
+  width: 100%;
+  height: 30rem;
   display: flex;
   align-items: center;
 }
-.face{
+
+.face {
   float: left;
   width: 20%;
   vertical-align: middle;
   margin-left: 2%;
   margin-top: 2%;
 }
-.face2{
+
+.face2 {
   float: right;
   width: 50%;
   vertical-align: middle;
   margin-right: 2%;
   margin-top: 2%;
 }
-.personal-h2-1{
+
+.personal-h2-1 {
   color: Red;
   font-size: 4rem;
   text-align: left;
@@ -91,7 +98,8 @@
   font-family: 'Pacifico', cursive;
   vertical-align: middle;
 }
-.personal-h2-2{
+
+.personal-h2-2 {
   color: white;
   font-size: 4rem;
   text-align: right;
@@ -102,48 +110,71 @@
   font-family: 'Pacifico', cursive;
   vertical-align: middle;
 }
-.bubble{
+
+.bubble {
   float: left;
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
 }
-.carousel-div{
-  margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 20%;
 
+.carousel-div {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20%;
 }
-.carousel-control{
+
+.carousel-control {
   width: 100%;
 }
-.end-of-page{
+
+.end-of-page {
   background-color: red;
   width: 100%;
   height: 15rem;
 }
+
 .carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-#carouselExampleSlidesOnly{
+
+#carouselExampleSlidesOnly {
   margin-left: 25%;
 }
-h3{
+
+.hours {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Lato', sans-serif;
+  background-color: lightgray;
+  position: absolute;
+  top: 20%;
+}
+
+h3 {
   margin-left: 10%;
   font-family: 'Lato', sans-serif;
 }
-a{
+
+a {
   color: white;
   font-family: 'Lato', sans-serif;
 }
-hr{
+
+hr {
   background-color: red;
   width=100%;
   margin-bottom: 5%;
   height: 4px;
+}
+
+h1{
+  color: black;
 }
