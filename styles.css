@@ -6,19 +6,19 @@
 }
 
 #ballpit {
+  height:100%;
   position: relative;
   z-index: -1;
-  width: 100%;
 }
 
 #future {
-  color:white;
   position: absolute;
+  color:white;
   z-index: 10;
-  top: 22rem;
-  left: 2rem;
+  top: 25%;
+  left: 25%;
+  width: 50vw;
   font-size: 5vw;
-  width: 40vw;
   font-family: serif;
   font-weight: 600;
   text-shadow:
@@ -28,8 +28,10 @@
     1px 1px 0 Black;
 }
 
+
 #hours{
-  height: 80%;
+  height: 100%;
+  position: absolute;
 }
 #contact{
   height: 80%;
@@ -38,19 +40,43 @@
 #top{
   scroll-behavior: smooth;
 }
+#arrow-button{
+  cursor: default;
+  font-size: 3vw;
+  color: white;
+  animation-duration: 3s;
+  animation-name: fadein;
+  animation-iteration-count: infinite;
+}
+.fa-angle-down:hover{
+  cursor:pointer;
+  color: black;
+  animation-duration: 3s;
+  animation-name: fadein;
+  animation-iteration-count: infinite;
+
+}
 .large-color {
   width: 100%;
   height: 10000px;
   background-image: linear-gradient(red, yellow);
 }
 
+.row{
+}
 .navbar {
-  position: fixed;
   width: 100%;
   opacity: 100;
   z-index: 100;
 }
 
+#nav-link:hover{
+ color: red;
+}
+
+#pic-text{
+  margin-top: 10%;
+}
 .logo-div {
   margin: 0 0 0 2rem;
 }
@@ -63,47 +89,37 @@
 
 .image-text {
   position: relative;
+  text-align: center;
   color: white;
 }
 
 .personal {
+  margin: auto;
+  margin-top: 125px;
+  width: 50%;
   background-color: white;
-  width: 100%;
-  height: 30rem;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
-.personal2 {
-  background-color: red;
-  width: 100%;
-  height: 30rem;
-  display: flex;
-  align-items: center;
+.container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+
 }
 
 .face {
-  float: left;
-  width: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 20vw;
   vertical-align: middle;
-  margin-left: 2%;
-  margin-top: 2%;
+  display: inline-flex;
 }
 
-.face2 {
-  float: right;
-  width: 20%;
-  vertical-align: middle;
-  margin-right: 2%;
-  margin-top: 2%;
-}
 
 .personal-h2-1 {
   color: Red;
   font-size: 3vw;
   text-align: left;
-  margin-top: 2%;
-  margin-left: 3%;
   width: 50vw;
   font-family: 'Pacifico', cursive;
   vertical-align: middle;
@@ -122,26 +138,25 @@
 }
 
 .bubble {
-  margin-top: 10%;
+  margin-top:10%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
+  font-size: 2vw;
 }
 
 .carousel-div {
+  margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 15%;
   margin-right: 15%;
 }
 
 .carousel-control {
-  width: 100%;
+  width: 5vw;
 }
 
-.end-of-page {
-  background-color: red;
-  width: 100%;
-  height: 15rem;
-}
+
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -156,11 +171,11 @@
 }
 
 
-  .carousel-indicators li{
-    background-color: red;
-    height: 1.5vw;
-    width: 4vw;
-  }
+.carousel-indicators li{
+  background-color: red;
+  height: 1.5vw;
+  width: 4vw;
+}
 
 #carouselExampleSlidesOnly {
   margin-left: 25%;
@@ -198,29 +213,80 @@ hr {
   background-color: red;
   margin-left: 10%;
   margin-right: 10%;
+
 }
 
 h1{
   color: black;
 }
 
+
 h6{
-  margin-right: 10%;
-  text-align: right;
+  width: 10%;
 }
+
+ul{
+  width: 100%;
+  margin-top: 5%;
+}
+.end-of-page {
+  background-color: red;
+  width: 100%;
+  position: absolute;
+}
+
+.right-end{
+  display: flex;
+  width:50%;
+  float: right;
+}
+.made-by{
+  margin-top:5%;
+  width:100%;
+  margin-left: 10%;
+  font-family: 'Lato', sans-serif;
+}
+
 .about h1{
   font-size: 4rem;
   color: red;
 }
+
 .left-end{
+  width:50%;
+  display: flex;
   float: left;
-  width:50%;
+
 }
-.right-end{
-  float:right;
-  width:50%;
-  height: 100%;
+#left-text{
+  margin-top:2%;
 }
-.made-by{
-  margin-top: 18%;
+
+.fa-copyright{
+  font-size: 1vw;
+  margin-left: 0;
+}
+
+#copyright{
+margin-left: 0;
+font-family: 'Lato', sans-serif;
+display: flex;
+
+}
+@keyframes fadein {
+  from {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: .1;
+  }
+
+  50%
+  {
+    opacity: 1;
+  }
+  to {
+    opacity:1;
+  }
 }
