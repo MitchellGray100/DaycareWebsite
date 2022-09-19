@@ -69,7 +69,9 @@
   opacity: 100;
   z-index: 100;
 }
-
+.navbar-nav{
+  margin-top: 0%;
+}
 #nav-link:hover{
  color: red;
 }
