@@ -62,8 +62,32 @@
   background-image: linear-gradient(red, yellow);
 }
 
+.review{
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  text-align: center;
+}
+
+.testimony-title{
+  font-size: 5vw;
+  color: black;
+  text-align: center;
+}
+
+.fa-pen-to-square{
+  color: red;
+}
+
+.review-long{
+  margin-left: 5%;
+
+  /* margin-right: 10%; */
+  /* width: 50%; */
+  text-align: center;
+}
 .row{
 }
+
 .navbar {
   width: 100%;
   opacity: 100;
